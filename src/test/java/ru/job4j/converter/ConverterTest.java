@@ -3,7 +3,6 @@ package ru.job4j.converter;
 import org.junit.Assert;
 import org.junit.Test;
 
-
 public class ConverterTest {
 
     @Test
@@ -41,7 +40,6 @@ public class ConverterTest {
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
     }
-
 
     @Test
     public void whenConvert180RblThen3Dlr() {
