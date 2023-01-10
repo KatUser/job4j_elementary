@@ -12,6 +12,7 @@ public class TriangleTest {
         boolean result = Triangle.exist(ab, ac, bc);
         assertThat(result).isTrue();
     }
+
     @Test
     public void whenNotExist() {
         double ab = -1.0;
