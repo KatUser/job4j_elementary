@@ -11,8 +11,8 @@ public class Counter {
 
     public static int sumByEven(int start, int finish) {
         int sum = 0;
-        for (int i = start; i <= finish; i++){
-            if (i % 2 == 0){
+        for (int i = start; i <= finish; i++) {
+            if (i % 2 == 0) {
                 sum += i;
             }
         }
@@ -23,13 +23,13 @@ public class Counter {
         System.out.println(sum(0, 10));
         System.out.println(sum(3, 8));
         System.out.println(sum(1, 1));
-        System.out.println(sum(-1,5));
+        System.out.println(sum(-1, 5));
         System.out.println(sum(-10, 10));
         System.out.println(sum(0, 100));
 
         System.out.println(sumByEven(0, 10));
         System.out.println(sumByEven(3, 8));
         System.out.println(sumByEven(1, 1));
-        System.out.println(sumByEven(-2,2));
+        System.out.println(sumByEven(-2, 2));
     }
 }
