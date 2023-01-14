@@ -4,11 +4,9 @@ public class Slash {
     public static void draw(int size) {
 
         for (int row = 0; row < size; row++) {
-            int i = 0;
             for (int cell = 0; cell < size; cell++) {
                 boolean left = row == cell;
-                boolean right = row == size - 1 - i;
-                i++;
+                boolean right = row == size - cell - 1;
                 if (left) {
                     System.out.print("0");
                 } else if (right) {
