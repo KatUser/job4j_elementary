@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class X2Test {
-
     @Test
     public void whenA10B0C0X2Then40() {
         int a = 10;
