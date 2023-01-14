@@ -53,7 +53,7 @@ public class ConverterTest {
     @Test
     public void whenConvert1RblThen0dot16Dlr() {
         float in = 1;
-        float expected = 0.016666668f;
+        float expected = 0.0166f;
         float out = Converter.rubleToDollar(in);
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
@@ -62,7 +62,7 @@ public class ConverterTest {
     @Test
     public void whenConvert1000RblThen0dot16Dlr() {
         float in = 1000;
-        float expected = 16.66666666666667f;
+        float expected = 16.6666f;
         float out = Converter.rubleToDollar(in);
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
