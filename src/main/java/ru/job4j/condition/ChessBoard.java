@@ -17,3 +17,4 @@ public class ChessBoard {
         return coordinate >= 0 && coordinate <= 7;
     }
 }
+
