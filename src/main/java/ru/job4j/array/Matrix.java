@@ -8,7 +8,6 @@ public class Matrix {
                 array[row - 1][cell - 1] = row * cell;
             }
         }
-
         return array;
     }
 }

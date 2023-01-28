@@ -5,7 +5,7 @@ public class Calculator2 {
         int result = first + second;
         System.out.println(result);
     }
-
+    
     public static void main(String[] args) {
         Calculator2.plus(1, 2);
         Calculator2.plus(10, 11);
